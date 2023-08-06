@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Montserrat:wght@500&family=Outfit&display=swap');
+body{
+    background: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    height: 450px;
+}
+.container .photo {
+    display: inline-block;
+
+}
+
+.container .photo img{
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.container .discription{
+    display: inline-block;
+    background: hsl(0, 0%, 100%);
+    width: 300px;
+    padding-top: 35px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.container .discription p{
+    margin: 0;
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    margin-left:30px ;
+    display: inline-block;
+    margin-bottom: revert;
+}
+
+.container .discription .title{
+    font-family: Fraunces;
+    margin-left:30px ;
+}
+
+    
+.container .discription .mon{
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%); 
+    display: inline;
+    margin-left:30px ;
+    margin-top: 15px;
+    
+}
+.container .discription input{
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    margin-top: 15px;
+    font-family: Montserrat;
+    
+}
+.container .discription input:hover{
+    background-color: hsl(158, 48%, 13%);
+}
+.container .discription .P{
+    letter-spacing: 6px;
+    
+}
+.container .discription .old{
+    text-decoration-line: line-through;
+}
